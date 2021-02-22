@@ -13,6 +13,7 @@ public class Player {
     }
 
     public String describePlayer() {
+        score = 0;
         return "Player Name: " + name + "\nCurrent Hand: " + hand + "\nCurrent Score: " + score;
     }
 

@@ -1,6 +1,6 @@
 package War;
 
-public abstract class Card {
+public class Card {
 
     private int value;
     private String name;
