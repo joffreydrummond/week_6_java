@@ -1,8 +1,13 @@
 package War;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Deck {
     //List of cards
    private String cards;
+   List<String> cardList = new ArrayList<>();
+
 
    public Deck(String cards){
        this.cards = cards;

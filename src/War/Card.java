@@ -1,6 +1,6 @@
 package War;
 
-public class Card {
+public abstract class Card {
 
     private int value;
     private String name;
@@ -8,6 +8,10 @@ public class Card {
     public Card(String name, int value) {
         this.name = name;
         this.value = value;
+    }
+
+    public String describe() {
+        return "Name of card: " + name + "\nCard Value: " + value;
     }
 
     public int getValue() {

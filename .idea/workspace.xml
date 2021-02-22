@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b6fdd3-610c-4aa3-a6f6-26da6d4df87b" name="Default Changelist" comment="added main method to app">
+    <list default="true" id="73b6fdd3-610c-4aa3-a6f6-26da6d4df87b" name="Default Changelist" comment="added logic to card value field">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/War/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/War/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/Card.java" afterDir="false" />
@@ -37,6 +37,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week4/Code" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="War.App" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="War.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,12 +80,20 @@
       <option name="project" value="LOCAL" />
       <updated>1614011379850</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added logic to card value field">
+      <created>1614021170678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614021170678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created class files and complete java gitignore" />
     <MESSAGE value="added main method to app" />
-    <option name="LAST_COMMIT_MESSAGE" value="added main method to app" />
+    <MESSAGE value="added logic to card value field" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logic to card value field" />
   </component>
 </project>

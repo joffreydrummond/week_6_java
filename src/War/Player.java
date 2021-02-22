@@ -12,9 +12,7 @@ public class Player {
         this.score = score;
     }
 
-    public void describe(){
 
-    }
 
 
     public String getHand() {
