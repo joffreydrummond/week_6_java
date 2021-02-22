@@ -12,7 +12,9 @@ public class Player {
         this.score = score;
     }
 
-
+    public String describePlayer() {
+        return "Player Name: " + name + "\nCurrent Hand: " + hand + "\nCurrent Score: " + score;
+    }
 
 
     public String getHand() {

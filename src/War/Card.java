@@ -10,7 +10,7 @@ public abstract class Card {
         this.value = value;
     }
 
-    public String describe() {
+    public String describeCard() {
         return "Name of card: " + name + "\nCard Value: " + value;
     }
 
