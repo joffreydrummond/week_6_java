@@ -19,6 +19,10 @@ public class Player {
         return "Player Name: " + name + "\nCurrent Hand: " + hand + "\nCurrent Score: " + score;
     }
 
+    public boolean handIsEmpty(){
+        return hand.size() == 0;
+    }
+
     public Card playCard(){
         return this.hand.remove(0);
     }
@@ -34,5 +38,7 @@ public class Player {
     public String getName() {
         return name;
     }
+
+
 
 }
