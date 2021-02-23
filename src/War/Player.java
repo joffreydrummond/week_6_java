@@ -8,7 +8,7 @@ public class Player {
     private int score;
     private String name;
 
-    public Player(String name, List<Card> hand){
+    public Player(String name, List<Card> hand) {
         this.name = name;
         this.hand = hand;
         this.score = 0;
@@ -19,30 +19,20 @@ public class Player {
         return "Player Name: " + name + "\nCurrent Hand: " + hand + "\nCurrent Score: " + score;
     }
 
-
-
-
-    public String getHand() {
-        return hand;
-    }
-
-    public void setHand(String hand) {
-        this.hand = hand;
+    public Card playCard(){
+        return this.hand.remove(0);
     }
 
     public int getScore() {
         return score;
     }
 
-    public void setScore(int score) {
-        this.score = score;
+    public void addScore(int score) {
+        this.score += score;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }
