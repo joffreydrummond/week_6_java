@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b6fdd3-610c-4aa3-a6f6-26da6d4df87b" name="Default Changelist" comment="created describe method in player class">
+    <list default="true" id="73b6fdd3-610c-4aa3-a6f6-26da6d4df87b" name="Default Changelist" comment="added list of cards to Deck class. set capacity to 52">
+      <change afterPath="$PROJECT_DIR$/.idea/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/War/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/War/Card.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/War/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/War/Deck.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/War/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/War/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/War/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/War/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/War/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/War/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +36,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week4/Code" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614025658893</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added list of cards to Deck class. set capacity to 52">
+      <created>1614032465827</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614032465827</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,6 +127,7 @@
     <MESSAGE value="added logic to card value field" />
     <MESSAGE value="created describe method in card class" />
     <MESSAGE value="created describe method in player class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created describe method in player class" />
+    <MESSAGE value="added list of cards to Deck class. set capacity to 52" />
+    <option name="LAST_COMMIT_MESSAGE" value="added list of cards to Deck class. set capacity to 52" />
   </component>
 </project>

@@ -3,15 +3,17 @@ package War;
 public class Card {
 
     private int value;
-    private String name;
+    private String face;
+    private String suit;
 
-    public Card(String name, int value) {
-        this.name = name;
+    public Card(String suit, int value, String face) {
+        this.suit = suit;
         this.value = value;
+        this.face = face;
     }
 
     public String describeCard() {
-        return "Name of card: " + name + "\nCard Value: " + value;
+        return "Name of card: " + suit + "\nCard Value: " + value + "\nFace: " + face;
     }
 
     public int getValue() {
@@ -24,13 +26,20 @@ public class Card {
         }
     }
 
-    public String getName() {
-        return name;
+    public String getSuit() {
+        return suit;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setSuit(String suit) {
+        this.suit = suit;
     }
 
 
+    public String getFace() {
+        return face;
+    }
+
+    public void setFace(String face) {
+        this.face = face;
+    }
 }
