@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
+
 public class Deck {
 
     protected List<Card> cards;
@@ -16,16 +17,15 @@ public class Deck {
         int[] values = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,11, 12, 13};
         cards = new ArrayList<>(52);
 
-        String[] numbers = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
-        for (int i = 0; i < numbers.length; i++){
+        String[] faces = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
+        for (int i = 0; i < faces.length; i++){
             for (String suit : suits){
-                cards.add(new Card());
+                cards.add(new Card(suit, values[i], faces[i]));
                 index++;
             }
         }
-        System.out.println(cards);
-
-    }
+        Collections.shuffle(cards);
+         }
 
 
 

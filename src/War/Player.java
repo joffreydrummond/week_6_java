@@ -1,21 +1,25 @@
 package War;
 
+import java.util.List;
+
 public class Player {
     //list of Card
-    private String hand;
+    private List<Card> hand;
     private int score;
     private String name;
 
-    public Player(String name, String hand, int score){
+    public Player(String name, List<Card> hand){
         this.name = name;
         this.hand = hand;
-        this.score = score;
+        this.score = 0;
     }
 
     public String describePlayer() {
         score = 0;
         return "Player Name: " + name + "\nCurrent Hand: " + hand + "\nCurrent Score: " + score;
     }
+
+
 
 
     public String getHand() {

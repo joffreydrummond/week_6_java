@@ -5,16 +5,10 @@ import java.util.Collections;
 public class App {
 
     public static void main(String[] args) {
-        Player player = new Player("Fred", "great", 5);
-//        Deck deck = new Deck("Free", "Big Bank", );
-
-
-        Card card = new Card("Ace of Clubs", 2,"heart" );
-        System.out.println(card.describeCard());
-        System.out.println(player.describePlayer());
-
-
-
+        Deck deck = new Deck();
+     ;
+        Player player1 = new Player("Fred", deck.cards.subList(0, 26));
+        Player player2 = new Player("Frank", deck.cards.subList(26, 52) );
 
 
     }
