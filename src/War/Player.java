@@ -23,14 +23,10 @@ public class Player {
         return hand.size() == 0;
     }
 
-    public Card playCard(){
-        return this.hand.remove(0);
-    }
-
-    public int getScore() {
-        return score;
-    }
-
+//    public Card playCard(){
+//        Card remove = this.hand.remove(0);
+//        return remove;
+//    }
     public void addScore(int score) {
         this.score += score;
     }
@@ -39,6 +35,21 @@ public class Player {
         return name;
     }
 
+    public List<Card> getHand() {
+        return hand;
+    }
 
+    public void setHand(List<Card> hand) {
+        this.hand = hand;
+    }
+
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 }

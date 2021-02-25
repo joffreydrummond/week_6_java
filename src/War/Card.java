@@ -2,9 +2,9 @@ package War;
 
 public class Card {
 
+    private String suit;
     private int value;
     private String face;
-    private String suit;
 
     public Card(String suit, int value, String face) {
         this.suit = suit;
@@ -12,8 +12,9 @@ public class Card {
         this.face = face;
     }
 
+
     public String describeCard() {
-        return "Name of card: " + suit + "\nCard Value: " + value + "\nFace: " + face;
+        return "Card suit: " + suit + "\nCard Value: " + value + "\nFace: " + face;
     }
 
     public int getValue() {
@@ -21,9 +22,11 @@ public class Card {
     }
 
     public void setValue(int value) {
-        if (value >= 2 && value <= 14) {
-            this.value = value;
-        }
+//        if (value >= 2 && value <= 14) {
+//            this.value = value;
+//        }
+        this.value = value;
+
     }
 
     public String getSuit() {
