@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b6fdd3-610c-4aa3-a6f6-26da6d4df87b" name="Default Changelist" comment="created getHand getter and setHand setter">
+    <list default="true" id="73b6fdd3-610c-4aa3-a6f6-26da6d4df87b" name="Default Changelist" comment="fixed addScore method to add 1 to the winner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/War/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/War/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Code/War/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/War/Deck.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/War/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/War/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/War/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/War/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/War/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/War/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/War/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614216466821</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed addScore method to add 1 to the winner">
+      <created>1614301646452</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614301646452</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +183,8 @@
     <MESSAGE value="created remove card method" />
     <MESSAGE value="cleaned up deck and player classes" />
     <MESSAGE value="created getHand getter and setHand setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="created getHand getter and setHand setter" />
+    <MESSAGE value="fixed addScore method to add 1 to the winner" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed addScore method to add 1 to the winner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,27 +192,22 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/War/App.java</url>
           <line>10</line>
-          <option name="timeStamp" value="52" />
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/War/App.java</url>
           <line>11</line>
-          <option name="timeStamp" value="53" />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/War/App.java</url>
           <line>24</line>
-          <option name="timeStamp" value="54" />
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/War/App.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/War/App.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="56" />
+          <line>20</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -16,8 +16,8 @@ public class Player {
     }
 
     public String describePlayer() {
-        score = 0;
-        return "Player Name: " + name + "\nCurrent Hand: " + hand + "\nCurrent Score: " + score;
+
+        return name + " wins!" + "\nScore: " + score;
     }
 
     public boolean handIsEmpty(){
@@ -31,9 +31,6 @@ public class Player {
         this.score = score+1;
     }
 
-//    public void draw(){
-//        System.out.println("IT IS A DRAW. No points scored.");
-//    }
 
     public String getName() {
         return name;
