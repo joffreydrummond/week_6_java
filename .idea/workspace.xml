@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b6fdd3-610c-4aa3-a6f6-26da6d4df87b" name="Default Changelist" comment="cleaned up deck and player classes">
+    <list default="true" id="73b6fdd3-610c-4aa3-a6f6-26da6d4df87b" name="Default Changelist" comment="created getHand getter and setHand setter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/War/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/War/Card.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Code/War/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Code/War/Deck.class" afterDir="false" />
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week4/Code" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614117507045</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="created getHand getter and setHand setter">
+      <created>1614216466821</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614216466821</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,15 +179,36 @@
     <MESSAGE value="added shuffle to deck. each player gets 26 random cards" />
     <MESSAGE value="created remove card method" />
     <MESSAGE value="cleaned up deck and player classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up deck and player classes" />
+    <MESSAGE value="created getHand getter and setHand setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="created getHand getter and setHand setter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/War/App.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="30" />
+          <line>10</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/War/App.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/War/App.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/War/App.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/War/App.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

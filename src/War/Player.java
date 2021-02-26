@@ -1,5 +1,6 @@
 package War;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
@@ -10,7 +11,7 @@ public class Player {
 
     public Player(String name, List<Card> hand) {
         this.name = name;
-        this.hand = hand;
+        this.hand = new ArrayList<>(hand);
         this.score = 0;
     }
 
@@ -23,13 +24,16 @@ public class Player {
         return hand.size() == 0;
     }
 
-//    public Card playCard(){
-//        Card remove = this.hand.remove(0);
-//        return remove;
-//    }
-    public void addScore(int score) {
-        this.score += score;
+    public Card playCard(){
+        return this.hand.remove(0);
     }
+    public void addScore() {
+        this.score = score+1;
+    }
+
+//    public void draw(){
+//        System.out.println("IT IS A DRAW. No points scored.");
+//    }
 
     public String getName() {
         return name;

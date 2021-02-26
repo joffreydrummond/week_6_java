@@ -12,9 +12,8 @@ public class Card {
         this.face = face;
     }
 
-
     public String describeCard() {
-        return "Card suit: " + suit + "\nCard Value: " + value + "\nFace: " + face;
+        return "Suit: " + suit + "\nValue: " + value + "\nFace: " + face;
     }
 
     public int getValue() {
@@ -22,9 +21,6 @@ public class Card {
     }
 
     public void setValue(int value) {
-//        if (value >= 2 && value <= 14) {
-//            this.value = value;
-//        }
         this.value = value;
 
     }

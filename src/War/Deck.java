@@ -5,7 +5,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class Deck {
-
     protected List<Card> cards;
     int index = 0;
 
@@ -21,6 +20,16 @@ public class Deck {
                 index++;
             }
         }
+
         Collections.shuffle(cards);
     }
+
+    public List<Card> getCards() {
+        return cards;
+    }
+
+    public void setCards(List<Card> cards) {
+        this.cards = cards;
+    }
+
 }
