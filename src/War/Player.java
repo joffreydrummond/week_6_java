@@ -15,20 +15,26 @@ public class Player {
         this.score = 0;
     }
 
-    public String describePlayer() {
-
-        return name + " wins!" + "\nScore: " + score;
+    public static void draw() {
+        System.out.println("IT IS A DRAW. No points scored.");
     }
 
-    public boolean handIsEmpty(){
+    public String describePlayer() {
+
+        return name + " wins the game!" + "\nScore: " + score;
+    }
+
+    public boolean handIsEmpty() {
         return hand.size() == 0;
     }
 
-    public Card playCard(){
+    public Card playCard() {
         return this.hand.remove(0);
     }
+
     public void addScore() {
-        this.score = score+1;
+        this.score = score + 1;
+        System.out.println(name + " won this round!" + "\nHe has " + score);
     }
 
 

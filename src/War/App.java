@@ -1,10 +1,6 @@
 package War;
 
 public class App {
-//    public static void draw() {
-//        System.out.println("IT IS A DRAW. No points scored.");
-//    }
-
     public static void main(String[] args) {
         Deck deck = new Deck();
 //
@@ -25,7 +21,8 @@ public class App {
                 player2.addScore();
                 round++;
             } else {
-//                draw();
+
+                Player.draw();
                 round++;
             }
         }
@@ -35,14 +32,24 @@ public class App {
         //determine winner and current score show and show the current round
         //after rounds are complete determine winner and display
 //
+
         if (player1.handIsEmpty() && player2.handIsEmpty()) {
             if (player1Score > player2Score) {
+                System.out.println("########################");
+                System.out.println("========================");
+
                 System.out.println(player1.describePlayer());
             } else if (player1Score < player2Score) {
+                System.out.println("########################");
+                System.out.println("========================");
+
                 System.out.println(player2.describePlayer());
             } else {
-                System.out.println("Draw? Randomly getting cards and it's a draw? You both suck.");
+                System.out.println("?????????????????????????");
+                System.out.println("?????????????????????????");
+                System.out.println("Draw? Randomly getting cards and it's a draw? Computers are crazy.");
             }
         }
     }
+
 }
